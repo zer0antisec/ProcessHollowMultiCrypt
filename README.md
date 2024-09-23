@@ -14,11 +14,13 @@
 
 ### Command to Run the Script:
 ```bash
-python3 script.py <shellcode.bin> <output.cs> <method>
+Usage: python3 script.py <shellcode.bin> <output.cs> <method>
+Methods: AES, Caesar, RC4, XOR
+
 ```
 ### Example
 ```bash
-python3 script.py shellcode.bin process_hollow.cs AES / RC4 / XOR / Cesaer
+python3 script.py shellcode.bin process_hollow.cs AES / RC4 / XOR / Caesaer
 ```
 ## 🔐 Encryption Methods:
 
