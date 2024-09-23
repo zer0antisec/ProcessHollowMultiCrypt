@@ -18,7 +18,7 @@ python3 script.py <shellcode.bin> <output.cs> <method>
 ```
 ### Example
 ```bash
-python3 script.py shellcode.bin process_hollow.cs AES
+python3 script.py shellcode.bin process_hollow.cs AES / RC4 / XOR / Cesaer
 ```
 ## 🔐 Encryption Methods:
 
